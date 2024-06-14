@@ -1,0 +1,20 @@
+{
+  "name": "quiz-app-byhassanali",
+  "version": "1.0.0",
+  "description": "An interactive typescript command-line quiz application that tests your knowledge on various topics. Choose your favorite category, select the number of questions, and set the difficulty level. The quiz pulls questions from the Open Trivia Database (OpenTDB) to provide a diverse range of questions.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.12",
+    "chalk": "^4.1.2",
+    "inquirer": "^9.2.22"
+  }
+}
